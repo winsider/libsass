@@ -85,6 +85,9 @@ sass-spec/
 
 installer/
 
+# Nuget
+nuget/builds/
+
 # Visual Studio cache directory
 .vs/
 

@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+	<metadata>
+		<id>libsass-win-vc140</id>
+		<version>3.5.5</version>
+		<description>libsass native c++ windows 32/64-bits native libraries</description>
+        <authors>Lars Tungen</authors>
+		<tags>Native native</tags>
+        <dependencies>
+            <dependency id="libsass-common" version="3.5.5" />
+        </dependencies>        
+	</metadata>
+	<files>
+        <file src="..\win\bin\**\*.lib"       target="lib\native\" />
+        <file src="..\win\bin\**\*.pdb"       target="lib\native\" />
+		<file src="libsass-win-vc140.targets" target="build" />
+	</files>
+</package>

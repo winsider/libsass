@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<package >
+	<metadata>
+		<id>libsass-common</id>
+		<version>3.5.5</version>
+		<description>libsass native c++ common package</description>
+        <authors>Lars Tungen</authors>
+		<tags>Native native</tags>
+	</metadata>
+	<files>
+		<file src="..\include\**\*.*"   target="lib\native\include" />
+		<file src="README.md"           target="native" />
+		<file src="libsass-common.targets"     target="build" />
+	</files>
+</package>
