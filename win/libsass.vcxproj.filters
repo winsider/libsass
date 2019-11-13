@@ -43,14 +43,14 @@
     <ClInclude Include="$(LIBSASS_INCLUDES_DIR)\sass\version.h.in">
       <Filter>Include Headers</Filter>
     </ClInclude>
-    <ClInclude Include="$(LIBSASS_INCLUDES_DIR)\extender.hpp">
-      <Filter>Sources</Filter>
+    <ClInclude Include="$(LIBSASS_HEADERS_DIR)\extender.hpp">
+      <Filter>Headers</Filter>
     </ClInclude>
-    <ClInclude Include="$(LIBSASS_INCLUDES_DIR)\extension.hpp">
-      <Filter>Sources</Filter>
+    <ClInclude Include="$(LIBSASS_HEADERS_DIR)\extension.hpp">
+      <Filter>Headers</Filter>
     </ClInclude>
-    <ClInclude Include="$(LIBSASS_INCLUDES_DIR)\stylesheet.hpp">
-      <Filter>Sources</Filter>
+    <ClInclude Include="$(LIBSASS_HEADERS_DIR)\stylesheet.hpp">
+      <Filter>Headers</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup Label="Headers">
@@ -413,25 +413,25 @@
     <ClCompile Include="$(LIBSASS_SRC_DIR)\values.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\extender.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\ast_sel_super.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\extension.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\ast_sel_weave.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\ast_sel_weave.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\eval_selectors.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\ast_sel_super.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\extender.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\stylesheet.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\extension.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\parser_selectors.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\parser_selectors.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
-    <ClCompile Include="$(LIBSASS_INCLUDES_DIR)\eval_selectors.cpp">
+    <ClCompile Include="$(LIBSASS_SRC_DIR)\stylesheet.cpp">
       <Filter>Sources</Filter>
     </ClCompile>
   </ItemGroup>
